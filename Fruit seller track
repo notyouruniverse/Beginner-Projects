@@ -1,0 +1,18 @@
+fruits = {'Apple':'15','Banana':'15','Orange':'20','Mango':'30','Water Melon':'40','Jackfruit':'40','Cherry':'20','Strawberry':'35','Pear':'15'}
+print(fruits)
+
+n = int(input("How many fruits do you wish to buy? "))
+bill = 0
+
+for n in range(n):
+    item = input("\nChoose a fruit to buy: ").title()
+    if item in fruits:
+        print("\nYou have bought a",item,"worth",fruits[item],"rupees.")
+        bill += int(fruits[item])
+        print(fruits)
+        
+    else:
+        print("Sorry, we do not have",item,".")
+    
+
+print("Your total bill is",bill,"rupees.")
