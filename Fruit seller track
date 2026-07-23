@@ -7,7 +7,7 @@ bill = 0
 for n in range(n):
     item = input("\nChoose a fruit to buy: ").title()
     if item in fruits:
-        print("\nYou have bought a",item,"worth",fruits[item],"rupees.")
+        print("\nYou have bought a",item,"worth",fruits[item],"bucks.")
         bill += int(fruits[item])
         print(fruits)
         
@@ -15,4 +15,4 @@ for n in range(n):
         print("Sorry, we do not have",item,".")
     
 
-print("Your total bill is",bill,"rupees.")
+print("Your total bill is",bill,"bucks.")
