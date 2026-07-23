@@ -5,4 +5,4 @@ choice = input("Choose any FIFA World Cup winner: ")
 if choice in winners:
     print(choice.title(), "has won the world cup in", winners[choice])
 else:
-    print("Your country has not won a World Cup yet.")
+    print(choice.title(),"country has not won a World Cup yet.")
