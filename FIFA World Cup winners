@@ -1,0 +1,8 @@
+winners = {'Brazil':'1958, 1962, 1970, 1994, 2002', 'Germany':'1954, 1974, 1990, 2014', 'Italy':'1934, 1938, 1982, 2006','Argentina':'1978, 1986, 2022', 'France':'1998, 2018',     'Uruguay':'1926, 1950','England':'1966','Spain':'2010, 2026','brazil':'1958, 1962, 1970, 1994, 2002', 'germany':'1954, 1974, 1990, 2014', 'italy':'1934, 1938, 1982, 2006','argentina':'1978, 1986, 2022', 'france':'1998, 2018', 'uruguay':'1926, 1950','england':'1966','spain':'2010, 2026'}
+
+choice = input("Choose any FIFA World Cup winner: ")
+
+if choice in winners:
+    print(choice.title(), "has won the world cup in", winners[choice])
+else:
+    print("Your country has not won a World Cup yet.")
