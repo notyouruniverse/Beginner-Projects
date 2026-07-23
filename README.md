@@ -16,9 +16,6 @@
         4. Rock Paper Scissors
            - A simple command-line Rock Paper Scissors game.
 
-        5. FIFA World Cup winners
-           - A program that gives you the year of user specified nation that has won the FIFA World Cup using Dictionary.
-
 ----> Languages:
       1.Python (as of June 2026)
 
