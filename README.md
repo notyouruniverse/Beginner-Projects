@@ -16,6 +16,15 @@
         4. Rock Paper Scissors
            - A simple command-line Rock Paper Scissors game.
 
+        5. FIFA World Cup winners
+           - Returns the year of user's given input nation's world cup victory.
+
+        6. Fruit selling and bill simulator
+           - Dictionary based python project that returns cost and total bill after purchasing available fruits from the imaginary shop.
+
+        7. Bubble Sort
+           - A simple bubble sort algorithm based python code.
+
 ----> Languages:
       1.Python (as of June 2026)
 
