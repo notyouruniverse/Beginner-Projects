@@ -1,0 +1,35 @@
+try:
+    n = int(input("How many numbers do you wish to add? "))
+except ValueError:
+    print("Enter a valid NUMBER.")
+    
+list =[]
+
+try:
+    for i in range(n):
+        try:
+            element = int(input("Enter any number: "))
+        except ValueError:
+            print("Enter a Valid NUMBER.")
+        list.append(element)
+except NameError:
+    print(" ")
+
+#Printing Unsorted Numbers
+print("\nGiven numbers before sorting are: ")
+for i in list:
+    print(i)
+
+
+def sort(list):
+    for i in range(len(list)):
+        for j in range(len(list)-1):
+            if list[j] > list[j+1]:
+                list[j], list[j+1] = list[j+1], lst[j]
+    return list
+        
+#Printing Sorted Numbers
+print("\nNumbers after being sorted in Ascending order: ")
+sort(list)
+for i in list:
+    print(i)
