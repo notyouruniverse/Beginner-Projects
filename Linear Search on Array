@@ -1,0 +1,12 @@
+import array as arr
+
+myarr = arr.array('i',[1,2,3,4,5])
+
+def search(array,number):
+    for i in range(len(array)):
+        if array[i] == number:
+            print("Object found at Index: ",i)
+        else:
+            i += 1
+
+search(myarr,5)
