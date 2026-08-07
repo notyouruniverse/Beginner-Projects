@@ -1,5 +1,6 @@
 
 ----> This repository contains Python programs that I created while learning Python.
+----> The lower the project in list, the better.
 
 
 ----> Programs
@@ -24,6 +25,9 @@
 
         7. Bubble Sort
            - A simple bubble sort algorithm based python code.
+
+        8. Binary Search Implementation on Arrays
+           - A simple binary search algorithm that works on Array.
 
 ----> Languages:
       1.Python (as of June 2026)
