@@ -1,15 +1,13 @@
 
-#import turtle
-import turtle
-from turtle import *
 
-# screen for output
+import turtle
+from turtle import * 
+
 screen = turtle.Screen()
-# Defining a turtle Instance
 t = turtle.Turtle()
 speed(1)
 
-# initially penup()
+
 t.penup()
 t.goto(-200, 125)
 t.pendown()
@@ -67,8 +65,7 @@ for i in range(24):
     t.forward(7)
     t.right(15)
     t.pendown()
-
-# Small Blue Circle
+    
 t.color("navy")
 t.penup()
 t.goto(10, 0)
@@ -77,7 +74,7 @@ t.begin_fill()
 t.circle(10)
 t.end_fill()
 
-#The spokes of India Flag
+
 t.penup()
 t.goto(0, 0)
 t.pendown()
@@ -87,7 +84,7 @@ for i in range(24):
     t.backward(30)
     t.left(15)
 
-#for stick of the flag
+#sstick of the flag
 t.color("Brown")
 t.pensize(10)
 t.penup()
