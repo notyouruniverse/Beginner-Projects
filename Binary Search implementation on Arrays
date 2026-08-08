@@ -1,0 +1,16 @@
+import array as arr
+
+myarr = arr.array('i',[1,2,3,4,5])
+    
+def binary_search(array,target):
+    low = 0
+    high = len(array)
+    mid = (high+low)//2
+    if array[mid] == target:
+        print("Target found at Index: ",mid)
+    elif target > arr[mid]:
+        low = mid + 1
+    else:
+        high = mid - 1
+        
+binary_search(myarr,3)
