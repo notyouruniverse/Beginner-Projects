@@ -14,3 +14,21 @@ def binary_search(array,target):
         high = mid - 1
         
 binary_search(myarr,3)
+
+
+
+
+
+
+
+
+
+
+
+#Demo Output:
+Enter number of elements: 4
+Enter element in ascending order: 1
+Enter element in ascending order: 2
+Enter element in ascending order: 3
+Enter element in ascending order: 4
+Target found at Index:  2
