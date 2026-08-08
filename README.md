@@ -26,8 +26,13 @@
         7. Bubble Sort
            - A simple bubble sort algorithm based python code.
 
-        8. Binary Search Implementation on Arrays
+        8. Linear Search
+           - A simple Linear search algorithm that works on an Array.
+
+        9. Binary Search Implementation on Arrays
            - A simple binary search algorithm that works on Array.
+
+         
 
 ----> Languages:
       1.Python (as of June 2026)
