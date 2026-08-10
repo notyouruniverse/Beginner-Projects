@@ -12,3 +12,8 @@ while i < 10000 and i < n:  # Loop up to 9999, but stop if i reaches n
 
 if not is_composite and n > 1:
     print(n, "is a prime number.")
+
+
+#Output:
+Enter a number: 87
+87 is a composite number divisible by 3
