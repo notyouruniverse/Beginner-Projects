@@ -32,6 +32,12 @@
         9. Binary Search Implementation on Arrays
            - A simple binary search algorithm that works on Array.
 
+        10. Prime or Composite
+           - A python program designed to calculate if a given number is prime or composite.
+
+        11. Palindrome Checking
+           - A python program that verifies if an input string is palindrome using lists.
+
          
 
 ----> Languages:
