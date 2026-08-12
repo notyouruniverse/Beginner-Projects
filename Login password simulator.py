@@ -30,3 +30,19 @@ while True:
     
     if stop_or_continue == "STOP":
         break
+
+###Output
+Choose an option:
+        1 - Create a new password
+        2 - View saved password
+        Enter your option here: 1
+Enter new password here: TopSecret123
+Enter password again for confirmation: TopSecret123
+Password saved successfully.
+Enter STOP to kill the program, enter GO to run it again: GO
+Choose an option:
+        1 - Create a new password
+        2 - View saved password
+        Enter your option here: 2
+TopSecret123
+Enter STOP to kill the program, enter GO to run it again: 
