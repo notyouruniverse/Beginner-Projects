@@ -38,6 +38,9 @@
         11. Palindrome Checking
            - A python program that verifies if an input string is palindrome using lists.
 
+        12. Password Manager
+           - A program that works on file system in python to create and view saved passwords.
+
          
 
 ----> Languages:
