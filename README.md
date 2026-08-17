@@ -41,6 +41,9 @@
         12. Password Manager
            - A program that works on file system in python to create and view saved passwords.
 
+        13. Student detail record
+           - A simple student detail storehouse that works on the basis of dictionaries.
+
          
 
 ----> Languages:
