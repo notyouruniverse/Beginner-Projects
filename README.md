@@ -50,7 +50,7 @@
          
 
 ----> Languages:
-      1.Python (as of Augu=== 2026)
+      1.Python (as of August 2026)
 
   
 ----------------------------- Author: S Darshan -----------------------------
