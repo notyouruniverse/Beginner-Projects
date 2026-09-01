@@ -47,10 +47,14 @@
         14. To do list
            - A to do list based on Lists to help you adapt a disciplined Lifestyle.
 
+        15. Python-SQL Integration
+           - A program that uses both Python and SQL to store student's name, roll number, marks. Offering an option to write your own SQL command too.
+
          
 
 ----> Languages:
-      1.Python (as of August 2026)
+      1. Python 
+      2. Structured Query Language (as of September 2026)
 
   
 ----------------------------- Author: S Darshan -----------------------------
