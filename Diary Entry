@@ -1,0 +1,37 @@
+while True:
+    print("---------- DIARY ---------- ")
+
+    print("\nChoose an option: \n1.Enter contents in Diary\n2.View Diary Contents\n3.Add contents in Diary")
+    opt = int(input("Enter an option: "))
+
+    if opt == 1:
+        print("\n---------- WRITING CONTENT IN DIARY ----------")
+        diary_entry = input("Enter diary contents: ")
+        with open("diary.txt","w") as file:
+            file.write(diary_entry)
+        print("Contents successfully written!!")
+
+    elif opt == 2:
+        print("\n---------- DIARY CONTENTS ----------")
+        with open("diary.txt","r") as file:
+            content = file.read()
+        if content == "":
+            print("You have not written anything in Diary.")
+        else:
+            print(content)
+
+    elif opt == 3:
+        print("\n---------- ADDING CONTENT ----------")
+        with open("diary.txt","a+") as file:
+            diary_content1 = input("Enter content to Append: ")
+            file.write(diary_content1)
+            print(file.read())
+
+    else:
+        print("Invalid Input.")
+        
+
+    loop_breaker = int(input("Press 1 to continue, Press 0 to break program."))
+    if loop_breaker == 0:
+        print("Have a nice day! :>")
+        break
